@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>INST377 - Lab 3 - Thara Le</title>
+        <link rel="stylesheet" href="Lab3.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header id="bar">
+            <h1>Lab 3 - Rock Paper Scissors</h1>
+        </header>
+        <!-- Navigation Section -->
+        <nav id="main-nav">
+            <ul>
+                <li><a href="https://www.yahoo.com/?guccounter=1" target="_blank">Yahoo Finance</a></li>
+                <li><a href="https://gemini.google.com/app" target="_blank">Gemini</a></li>
+                <li><a href="https://www.testudo.umd.edu/" target="_blank">Testudo</a></li>
+            </ul>
+        </nav>
+        <!-- Main Container -->
+        <div class="main-container">
+            <!-- Game Area -->
+            <div class="game-area">
+                <div class="game-box">
+                    <h2>Please choose one of the following: </h2>
+                    <!-- Form -->
+                    <form>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" required>
+                        <br><br>
+
+                        <label for="game">Your choice: </label>
+                        <select id="game" name="material">
+                            <option hidden disabled selected>-- Select Material --</option>
+                            <option value="rock">Rock</option>
+                            <option value="paper">Paper</option>
+                            <option value="scissors">Scissors</option>
+                        </select>
+                        <br><br>
+
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+            <!-- Rules Area -->
+            <div class="rules-area">
+                <div class="rules-box">
+                    <h2><u>Rules</u></h2>
+                    <h3>You must use Rock, Paper, or Scissors.</h3>
+                    <h3>The combos are as follow:</h3>
+                    <ul>
+                        <li>Rock beats scissors</li>
+                        <li>Scissors beats paper</li>
+                        <li>Paper beats rock</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="bar">
+            <p>This is my footer.</p>
+        </footer>
+    </body>
+</html>
