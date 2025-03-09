@@ -1,0 +1,76 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#bar {
+    text-align: center;
+    color: rgb(145, 99, 99);
+    background-color:white;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    clear: both;
+    margin: 5px;
+}
+
+#main-nav {
+    background-color: pink;
+    text-align: left;
+}
+
+#main-nav ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: white;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black
+}
+
+.game-area {
+    width: 50%;
+    float: left;
+}
+
+.game-box {
+    background-color: rgb(255, 233, 254);
+    color: black;
+    border: 2px solid rgb(145, 99, 99);
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left: 5px;
+}
+
+.rules-area {
+    float: right;
+    width: 45%;
+}
+
+.rules-box {
+    background-color: rgb(185, 216, 250);
+    color: black;
+    border: 2px solid rgb(145, 99, 99);
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+#name:focus {
+    width: 300px;
+}
+
+.rules-box:hover {
+    background-color: purple;
+}
